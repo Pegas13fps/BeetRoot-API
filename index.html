@@ -1,36 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <title>Beetroot Weather</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <!-- main header -->
     <header class="main-header">
         <div class="logo">
-            <img src="logo.svg" alt="Beetroot img">
+            <img src="logo.svg" alt="Beetroot logo">
         </div>
-        <button class="btn">Update</button>
-    </header>
-    
+        <button class="upd">Update</button>
+    </header> <!-- ./main header -->
+
     <main>
         <div class="preloader">Loading...</div>
         <div class="card">
             <h3 class="city"></h3>
-            <img class="weather-icon" src="#" alt="weather-icon">
+            <img src="#" alt="#" class="weather-icon">
             <p class="temp-wrap">
                 Temp:
                 <span class="temp"></span>
                 &deg;C
             </p>
         </div>
+
     </main>
-    
+
     <footer class="main-footer">
         <span class="copyright">
             &copy; 2018 Beetroot Weather
         </span>
     </footer>
+
     <script src="main.js"></script>
 </body>
 </html>

@@ -1,16 +1,19 @@
+
 * {
     box-sizing: border-box;
-    transition: 3s;
 }
+
 body, html {
     min-height: 100vh;
 }
+
 body {
     margin: 0;
     display: flex;
     flex-flow: column nowrap;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 main {
     flex: 1 0;
     padding: 40px;
@@ -19,24 +22,28 @@ main {
 .main-header {
     border-bottom: 1px solid #7bceb1;
     color: #fff;
-    padding: 10px 25px;
+    padding: 10px 25px; 
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .logo {
     width: 300px;
 }
+
 .logo > img {
-    width: 100%;
+    max-width: 100%;
     display: block;
 }
+
 .main-footer {
     background-color: #7bceb1;
     padding: 25px 0;
     color: #fff;
     text-align: center;
 }
+
 .card {
     border: 2px solid #7bceb1;
     width: 300px;
@@ -44,9 +51,11 @@ main {
     border-radius: 5px;
     display: none;
 }
+
 .city {
     margin-top: 0;
 }
+
 .temp-wrap {
     margin-bottom: 0;
 }
